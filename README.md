@@ -76,8 +76,7 @@ Use this PHP client library [docs](https://github.com/jlevers/selling-partner-ap
 
 
 
+<!-- Go to `Developer central` and  Create new app.
+ ![image](https://user-images.githubusercontent.com/89484481/217552820-109fa024-4819-42a7-8eb6-eeffdc8b91ec.png) -->
 
 
-
-Go to `Developer central` and  Create new app.
- ![image](https://user-images.githubusercontent.com/89484481/217552820-109fa024-4819-42a7-8eb6-eeffdc8b91ec.png)
