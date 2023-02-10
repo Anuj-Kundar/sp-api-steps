@@ -62,17 +62,33 @@ This is relatively straightforward – if you don't already have an AWS account,
 
 Search for `IAM` in the top search bar, go to the result with the same name, click `Users` in the left sidebar, and then `Add Users`.
 
+![image](https://user-images.githubusercontent.com/89484481/218149801-a9f73513-c3ba-45a6-84e6-4267beedd2e8.png)
+</br>
+![image](https://user-images.githubusercontent.com/89484481/218150193-9dafb239-ec10-4e38-9ed0-3c20f14772d5.png)
+
+
 On the next screen, name your user whatever you'd like – I named mine `SPAPI`. You don't need to enable console access.
 
 You can click `Next` through the permissions and tagging steps, and then click `Create` to finish making the user. You'll be redirected to a list showing your IAM users – click the name of the one you just made, and copy the 12-digit number from the role's ARN – we'll need it later. Then go to the `Security credentials` tab, scroll down to `Access keys`, and select `Create access key`. Choose the `Application running outside of AWS` use case, click `Next`, and then click `Create access key` one more time.
 
 Download the CSV with your credentials, and make sure to save it somewhere safe – if you lose these credentials do, you'll have to create a new set.
+![image](https://user-images.githubusercontent.com/89484481/218152185-87bab9fc-58db-428b-82d4-46a2146e863c.png)
+
 
 #### [](#create-an-iam-policy)Create an IAM policy
 
 Now we need to make an IAM policy, which is basically a ruleset that can be connected to other IAM resources to give them permission to do particular things – in this case, permission to make calls to the Selling Partner API.
 
-Click `Policies` in the left sidebar, then `Create policy`. Select the `JSON` tab, and replace what's there with this:
+Click `Policies` in the left sidebar
+
+![image](https://user-images.githubusercontent.com/89484481/218152842-63d48a5e-b184-4e6c-bd7a-3a2b1942ac9b.png)
+
+
+then `Create policy`. 
+![image](https://user-images.githubusercontent.com/89484481/218153042-d73672b0-c36a-4ee1-8041-0ccd66dbd5dc.png)
+
+
+Select the `JSON` tab, and replace what's there with this:
 ```json
     {
       "Version": "2012-10-17",
