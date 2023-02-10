@@ -10,8 +10,18 @@ Access Amazon's Selling Partner API
 ## Complete Developer Application in Seller Central:
 1. apply for a Amazon Marketplace developer account! Go to [sellercentral.amazon.com](https://sellercentral.amazon.com)
 2. then click `Partner Network > Develop Apps`.
+![image](https://user-images.githubusercontent.com/89484481/218136662-57146edf-25b9-46a0-b85d-f5dda18947a4.png)
+![image](https://user-images.githubusercontent.com/89484481/218136791-8974ae04-7658-4adf-b446-a678e2d85edd.png)
+![image](https://user-images.githubusercontent.com/89484481/218137154-9201c969-224b-48bd-8ebd-ac1f1c8d9025.png)
 
-3. then Click `Proceed to Developer Profile` will land you on form with a few different sections. Fill `Contact Information` which is straightforward, 
+3.this will take you to `Developer central` here click on add new app.
+
+ ![image](https://user-images.githubusercontent.com/89484481/217552820-109fa024-4819-42a7-8eb6-eeffdc8b91ec.png)
+ this will take you to a registration  form.
+
+![image](https://user-images.githubusercontent.com/89484481/218138206-941f2dd0-2a28-4751-b86b-5e03e09688c5.png)
+
+with a few different sections. Fill `Contact Information` which is straightforward, 
 4. next is  `Data Access`:
 The first dropdown asks whether you're planning to use the seller APIs to make applications for your own Seller account, or applications that will be distributed to other Selling Partners. This totally depends on your use case. If you're not planning on distributing the tools you make, choose the first option. Otherwise, choose the second.
 5. Next is a list of roles, each corresponding to a set of resources and operations that are available via the Selling Partner API. As noted on the application form, some of the roles grant access to Personally Identifiable Information (PII), so tighter security requirements are placed on them. I recommend not selecting any of these roles unless you absolutely need to – they will slow down the application process and require you to implement complex data security me asures, and you can always request access to them later if necessary.
@@ -76,7 +86,6 @@ Use this PHP client library [docs](https://github.com/jlevers/selling-partner-ap
 
 
 
-<!-- Go to `Developer central` and  Create new app.
- ![image](https://user-images.githubusercontent.com/89484481/217552820-109fa024-4819-42a7-8eb6-eeffdc8b91ec.png) -->
+<!-- Go to  -->
 
 
