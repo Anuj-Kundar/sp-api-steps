@@ -140,7 +140,7 @@ Start your answer something like this:
 
 7. The "correct" answers to the `Security Controls` questions can be derived from what I wrote above about the policies around handling Amazon data. I recommend complying with their policies, because they can shut you down whenever they want if you don't.
 
-8. Once you're done with the whole form, click `Register`. Then  wait! It could take Amazon anywhere from a few minutes to a few weeks to approve the application, but it will probably be somewhere in the middle. In the meantime, let's get started registering your (future) Selling Partner API application.
+8. Once you're done with the whole form, click `Register`. Then  wait! It could take Amazon anywhere from a few minutes to a few weeks to approve the application, but it will probably be somewhere in the middle
 
 
 
