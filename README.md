@@ -97,7 +97,7 @@ Let's create a role that will allow the IAM user to get access to the SP API via
 
 Click `Roles` in the sidebar, click `Create role`. Under `Select trusted entity`, choose `AWS account > This account`.
 
-![select role trusted entity](/_next/image?url=%2Fstatic%2Fimages%2Frole-select-trusted-entity.png&w=3840&q=75)
+![select role trusted entity](https://user-images.githubusercontent.com/89484481/218148724-bd7fa5b1-4dfd-41c8-9129-a6acffed4715.png)
 
 Click `Next` to the permissions page. There, select the policy you just created from the list of policies. Click `Next`, name your role (whatever name you want, you know the drill ;), and click `Create role`. Like when you created the user, select the role you just created from the list of all your IAM roles and save its ARN – we'll need it later.
 
