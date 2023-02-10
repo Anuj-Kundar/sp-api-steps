@@ -10,8 +10,7 @@ Access Amazon's Selling Partner API
 ## Complete Developer Application in Seller Central:
 1. apply for a Amazon Marketplace developer account! Go to [sellercentral.amazon.com](https://sellercentral.amazon.com)
 2. then click `Partner Network > Develop Apps`.
-Go to `Developer central` and  Create new app.
- ![image](https://user-images.githubusercontent.com/89484481/217552820-109fa024-4819-42a7-8eb6-eeffdc8b91ec.png)
+
 3. then Click `Proceed to Developer Profile` will land you on form with a few different sections. Fill `Contact Information` which is straightforward, 
 4. next is  `Data Access`:
 The first dropdown asks whether you're planning to use the seller APIs to make applications for your own Seller account, or applications that will be distributed to other Selling Partners. This totally depends on your use case. If you're not planning on distributing the tools you make, choose the first option. Otherwise, choose the second.
@@ -69,3 +68,16 @@ Use this PHP client library [docs](https://github.com/jlevers/selling-partner-ap
 [access sp api](https://www.highsidelabs.co/blog/selling-partner-api-access)
 
 [How to use Selling Partner API PHP library ](https://www.highsidelabs.co/blog/spapi-php-library)
+
+
+
+
+
+
+
+
+
+
+
+Go to `Developer central` and  Create new app.
+ ![image](https://user-images.githubusercontent.com/89484481/217552820-109fa024-4819-42a7-8eb6-eeffdc8b91ec.png)
