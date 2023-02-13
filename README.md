@@ -17,6 +17,8 @@ Overiew of the process looks like this:
 5.  Add a policy to the user to allow it to assume the permissions of the role.
 6.  Register your new SP API application! (Your developer application has to be approved first.)
 
+[Aws Docs](https://developer-docs.amazon.com/sp-api/docs/creating-and-configuring-iam-policies-and-entities)
+
 Let's go through it.
 
 #### [](#create-an-aws-account)Create an AWS account
